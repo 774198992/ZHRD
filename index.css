@@ -1,0 +1,449 @@
+/* 基础设置 */
+.container{
+    width: 1190px;
+    margin:0 auto;
+}
+
+/* #region顶部导航条 */
+.topbar{
+    height: 30px;
+    background: #ECECEC;
+}
+
+.welcome{
+    height: 30px;
+    line-height: 30px;
+    font-size: 0px;
+    color: #666666;
+    
+}
+.welcome span,.welcome a{
+    font-size: 12px;
+}
+.welcome .hello{
+    margin-right: 28px;
+}
+.welcome .login{
+    padding-right: 10px;
+    border-right: 1px solid #666;
+}
+.welcome .register{
+    padding-left: 10px;
+}
+.topbar-nav .list li{
+    float: left;
+
+}
+.topbar-nav .list{
+    height: 30px;
+    line-height: 30px;
+}
+
+.topbar-nav .list li a{
+    border-right: #666 1px solid;
+    padding: 0 15px;
+    height: 30px;
+    line-height: 30px;
+}
+.topbar-nav .list li:first-child a{
+    padding-left: 0px;
+
+}
+
+.topbar-nav .list li:last-child a{
+    padding-right: 0px;
+    border: 0px;
+}
+
+/* #endregion顶部导航条end */
+
+
+/* #region头部 */
+.header{
+    height: 120px;
+}
+.header form {
+    float: right;
+    margin-top: 42px;
+    font-size: 0px;
+}
+.header input{
+    width: 508px;
+    height: 34px;
+    border: 1px solid #dd302d;
+}
+.header button{
+    height: 36px;
+    width: 80px;
+    background:#dd302d;
+    vertical-align: top;
+    background-image: url("../images/assets/serch_icon.png");
+    /* 图片重复 */
+    background-repeat: no-repeat;
+    /* 图片位置,前水平,后垂直 */
+    background-position: 28px 6px;
+}
+/* #endregion头部 */
+
+/* #region主导航 */
+.main-nav{
+    height: 48px;
+    border-bottom: 1px solid #dd302d;
+}
+.all-tips{
+    height:48px ;
+    width: 190px;
+    background: #dd302d;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+}
+.nav-list li {
+    float :left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+/* #endregion */
+
+/* #region主要内容 */
+.main-content{
+    margin-top: 10px;
+}
+.slide-nav{
+    height: 458px;
+    width: 190px;
+    background: #f4f4f4;
+    font-size: 14px;
+    position: relative;
+}
+.slide-nav li {
+    /* padding: 4px 0;
+    margin: 0 10px; */
+    height: 28px;
+    line-height: 28px;
+    padding-left: 16px;
+}
+.slide-nav li:hover{
+    background:#dd302d;
+}
+
+.slide-nav li:hover>a{
+    color: white;
+}
+
+.second-menu {
+    width: 680px;
+    height: 458px;
+    background: white;
+    position:absolute;
+    top:0;
+    left: 190px;
+    padding-left: 20px;
+    display: none;
+}
+.slide-nav li:hover .second-menu{
+    display: block;
+}
+.second-menu dd {
+    float: left;
+}
+.second-menu dd a{
+    padding: 0 10px;
+    border-left: 1px #666 solid;
+}
+.second-menu dt{
+    float: left;
+    width: 70px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.second-menu dl{
+    height: 36px;
+    line-height: 36px;
+}
+.second-menu dl:first-child{
+    margin-top: 10px;
+}
+
+/* 中部 */
+.main-content .banner{
+    height: 458px;
+    width: 690px;
+    background:white;
+    margin:0 10px;
+}
+
+
+.main-content .slide-other{
+    height: 458px;
+    width: 290px;
+    background: white;
+}
+.slide-other .message{
+    height: 156px;
+    width: 268px;
+    border: 1px solid #d9d9d9;
+    padding: 0 10px;
+}
+.message .title{
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.message .title span{
+    font-size: 14px;
+}
+.message .title a {
+    font-size: 12px;
+}
+.message .msg-list{
+    margin-top: 5px;
+}
+.message .msg-list li {
+    height: 26px;
+    line-height: 26px;
+}
+
+
+.slide-other .other-nav {
+    margin-top: 10px;
+    width: 290px;
+    height: 290px;
+    /* background-color: gray; */
+    overflow: hidden;
+}
+.other-nav-list:first-child {
+    margin-top: 16px;
+}
+.other-nav-list:nth-child(2) {
+    margin: 17px 0;
+}
+.other-nav-list li {
+    width: 48px;
+    height: 70px;
+    /* background-color: rgb(161, 201, 216); */
+    float: left;
+    margin: 0 11px;
+    text-align: center;
+    cursor: pointer;
+}
+.other-nav-list li:hover {
+    color: #dd302d;
+}
+.other-nav-list li:first-child {
+    margin-left: 16px;
+}
+.other-nav-list .picture{
+    background-image: url('../images/assets/精灵图-侧边功能.png');
+    width: 48px;
+    height: 48px;
+}
+.other-nav-list:nth-child(1) li:nth-child(1) .picture{
+    background-position: 0 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(2) .picture{
+    background-position: -48px 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(3) .picture{
+    background-position: -96px 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(4) .picture{
+    background-position: -144px 0;
+}
+
+
+.other-nav-list:nth-child(2) li:nth-child(1) .picture{
+    background-position: 0 -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(2) .picture{
+    background-position: -48px -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(3) .picture{
+    background-position: -96px -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(4) .picture{
+    background-position: -144px -48px;
+}
+
+
+.other-nav-list:nth-child(3) li:nth-child(1) .picture{
+    background-position: 0 -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(2) .picture{
+    background-position: -48px -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(3) .picture{
+    background-position: -96px -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(4) .picture{
+    background-position: -144px -96px;
+}
+/* #endregion主要内容 */
+
+
+/* #region秒杀 */
+.seckill{
+    margin-top: 10px;
+}
+.seckill img{
+    margin-right: 11px;
+    float: left;
+    cursor: pointer;
+}
+.seckill img:last-child {
+    margin-right: 0;
+}
+/* #endregion秒杀 */
+
+
+/* #region楼层 */
+.floor{
+    margin-top: 48px;
+}
+.floor-name{
+    font-size: 20px;
+    font-weight:bold;
+}
+.floor-nav{
+    height: 30px;
+    padding-bottom: 4px;
+    line-height: 30px;
+    border-bottom: 2px solid #dd302d ;
+}
+.floot-nav-list li {
+    float: left;
+    font-size: 14px;
+}
+.floot-nav-list li a{
+    padding: 0 10px;
+    border-right: 1px solid #666;
+}
+.floot-nav-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+.floot-nav-list li:first-child a {
+    padding-left: 0;
+    color: #dd302d;
+}
+
+.info-item .item {
+    float:left;
+}
+.item1-list {
+    margin-bottom: 29px;
+}
+.info-item .item1{
+    width: 190px;
+    height: 392px;
+    background: #f4f4f4;
+    padding: 20px;
+}
+.info-item .item1 ul li{
+    width: 90px;
+    height: 22px;
+    padding-bottom: 3.5px;
+    border-bottom:1px  solid #d9d9d9;
+    text-align: center;
+    font-size: 16px;
+}
+.info-item .item li:nth-child(2n-1){
+    float: left;
+}
+.info-item .item li:nth-child(2n){
+    float: right;
+}
+.info-item .item li:nth-child(3){
+    margin: 14.4px 0;
+}
+.info-item .item li:nth-child(4){
+    margin: 14.4px 0;
+}
+
+.info-item .item2{
+    width: 340px;
+    height: 432px;
+    background: rebeccapurple;
+}
+.info-item .item3{
+    width: 206px;
+    height: 432px;
+    background:white;
+    border-right: 1px solid #e2e2e2;
+}
+.info-item .item3 img,
+.info-item .item4 img,
+.info-item .item5 img
+{
+    border-bottom: 1px solid #e2e2e2;
+}
+.info-item .item4{
+    width: 206px;
+    height: 432px;
+    background: gray;
+    border-right: 1px solid #e2e2e2;
+}
+.info-item .item5{
+    width: 206px;
+    height: 432px;
+}
+/* #endregion */
+
+
+/* #region页脚 */
+.footer{
+    background: #483e3e;
+    height: 440px;
+    margin-top: 48px;
+}
+.links-list{
+    float: left;
+    height: 176px;
+    width: 190px;
+    margin-top: 48px;
+    margin-right: 10px;
+}
+.links-list:last-child{
+    margin-right: 0;
+}
+.links-list a{
+    color: white;
+}
+.line{
+    margin-top: 22px;
+    height: 1px;
+    background: #584d4d;
+}
+.bottom-links{
+    text-align: center;
+    margin-top: 47px;
+}
+.bottom-links-list{
+    display: inline-block;
+}
+.bottom-links-list li {
+    float: left;
+    
+}
+.bottom-links-list li a{
+    padding: 0 26px;
+    border-right: 1px solid white;
+    color: white;
+}
+.bottom-links-list li:first-child a{
+    padding-left: 0;
+
+}
+.bottom-links-list li:last-child a{
+    padding-right: 0;
+    border: 0;
+}
+.bottom-links .copyright{
+    color: white;
+    margin-top: 10px;
+}
+/* #endregion */
