@@ -1,0 +1,98 @@
+
+/* #region头部 */
+.bx{
+    width: 1190px;
+    margin: 0 auto;
+}
+.dhl{
+    height: 30px;
+    background: #ECECEC;
+}
+.dhz{
+    font-size: 0px;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+}
+.dhz span,.dhz a{
+    font-size: 12px;
+}
+.dhz .hy{
+    padding-right: 28px;
+} 
+.dhz .dl{
+    padding-right: 10px;
+}
+.dhz .zc{
+    padding:0 10px;
+    border-left: 1px #666 solid;
+}
+.dhy .list{
+    height: 30px;
+    line-height: 30px;
+}
+.dhy .list li{
+    float: left;
+    font-size: 12px;
+}
+.dhy .list li a{
+    padding:0 15px;
+    border-right: 1px #666 solid;
+}
+.dhy .list li :first-child a{
+    padding-left: 0;
+}
+.dhy .list li:last-child a{
+    padding-right: 0;
+    border: 0;
+}
+
+/* #endregion头部 */
+
+/* #region头部 */
+.tb{
+    height: 120px;
+    background: skyblue;
+}
+.tb .logo{
+    clear: both;
+    float:left;
+}
+.tb .ss form{
+    float: right;
+    font-size: 0;
+    margin-top: 42px;
+}
+.tb .ss form input{
+    height: 34px;
+    width: 508px;
+    border: 1px #DD302D solid;
+}
+.tb .ss form button{
+    height: 36px;
+    width: 80px;
+    background: red;
+    background-image: url("../images/assets/serch_icon.png");
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+/* #endregion头部 */
+
+
+/* #dregion头部 */
+.zy .gg {
+    height: 48px;
+    width: 190px;
+    background: red;
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    color: #ECECEC;
+}
+.zy .gg .xx{
+    width: 1920px;
+
+}
+/* #endregion头部 */
+
